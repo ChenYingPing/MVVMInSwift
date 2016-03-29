@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		74B535FD1CAA30B50021E190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B535FC1CAA30B50021E190 /* AppDelegate.swift */; };
-		74B535FF1CAA30B50021E190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B535FE1CAA30B50021E190 /* ViewController.swift */; };
 		74B536021CAA30B50021E190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B536001CAA30B50021E190 /* Main.storyboard */; };
 		74B536041CAA30B50021E190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B536031CAA30B50021E190 /* Assets.xcassets */; };
 		74B536071CAA30B50021E190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B536051CAA30B50021E190 /* LaunchScreen.storyboard */; };
 		74B536121CAA30B50021E190 /* MVVMInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B536111CAA30B50021E190 /* MVVMInSwiftTests.swift */; };
 		74B5361D1CAA30B50021E190 /* MVVMInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5361C1CAA30B50021E190 /* MVVMInSwiftUITests.swift */; };
+		74B5362F1CAA35440021E190 /* DrugAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5362A1CAA35440021E190 /* DrugAdviceModel.swift */; };
+		74B536301CAA35440021E190 /* DrugAdviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5362B1CAA35440021E190 /* DrugAdviceTableViewCell.swift */; };
+		74B536311CAA35440021E190 /* DrugAdviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B5362C1CAA35440021E190 /* DrugAdviceTableViewCell.xib */; };
+		74B536321CAA35440021E190 /* DrugAdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5362D1CAA35440021E190 /* DrugAdviceViewController.swift */; };
+		74B536331CAA35440021E190 /* DrugAdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5362E1CAA35440021E190 /* DrugAdviceViewModel.swift */; };
+		74B536351CAA55780021E190 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B536341CAA55780021E190 /* UIColor+Extension.swift */; };
+		74B536371CAA55920021E190 /* YXAPPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B536361CAA55920021E190 /* YXAPPConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		74B535F91CAA30B40021E190 /* MVVMInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B535FC1CAA30B50021E190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74B535FE1CAA30B50021E190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74B536011CAA30B50021E190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B536031CAA30B50021E190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B536061CAA30B50021E190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		74B536181CAA30B50021E190 /* MVVMInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B5361C1CAA30B50021E190 /* MVVMInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMInSwiftUITests.swift; sourceTree = "<group>"; };
 		74B5361E1CAA30B50021E190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B5362A1CAA35440021E190 /* DrugAdviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugAdviceModel.swift; sourceTree = "<group>"; };
+		74B5362B1CAA35440021E190 /* DrugAdviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugAdviceTableViewCell.swift; sourceTree = "<group>"; };
+		74B5362C1CAA35440021E190 /* DrugAdviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugAdviceTableViewCell.xib; sourceTree = "<group>"; };
+		74B5362D1CAA35440021E190 /* DrugAdviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugAdviceViewController.swift; sourceTree = "<group>"; };
+		74B5362E1CAA35440021E190 /* DrugAdviceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugAdviceViewModel.swift; sourceTree = "<group>"; };
+		74B536341CAA55780021E190 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		74B536361CAA55920021E190 /* YXAPPConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAPPConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		74B535FB1CAA30B50021E190 /* MVVMInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				74B535FC1CAA30B50021E190 /* AppDelegate.swift */,
-				74B535FE1CAA30B50021E190 /* ViewController.swift */,
+				74B5362A1CAA35440021E190 /* DrugAdviceModel.swift */,
+				74B5362B1CAA35440021E190 /* DrugAdviceTableViewCell.swift */,
+				74B5362C1CAA35440021E190 /* DrugAdviceTableViewCell.xib */,
+				74B5362D1CAA35440021E190 /* DrugAdviceViewController.swift */,
+				74B5362E1CAA35440021E190 /* DrugAdviceViewModel.swift */,
 				74B536001CAA30B50021E190 /* Main.storyboard */,
+				74B535FC1CAA30B50021E190 /* AppDelegate.swift */,
+				74B536341CAA55780021E190 /* UIColor+Extension.swift */,
+				74B536361CAA55920021E190 /* YXAPPConfig.swift */,
 				74B536031CAA30B50021E190 /* Assets.xcassets */,
 				74B536051CAA30B50021E190 /* LaunchScreen.storyboard */,
 				74B536081CAA30B50021E190 /* Info.plist */,
@@ -230,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B536071CAA30B50021E190 /* LaunchScreen.storyboard in Resources */,
+				74B536311CAA35440021E190 /* DrugAdviceTableViewCell.xib in Resources */,
 				74B536041CAA30B50021E190 /* Assets.xcassets in Resources */,
 				74B536021CAA30B50021E190 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B535FF1CAA30B50021E190 /* ViewController.swift in Sources */,
 				74B535FD1CAA30B50021E190 /* AppDelegate.swift in Sources */,
+				74B536331CAA35440021E190 /* DrugAdviceViewModel.swift in Sources */,
+				74B5362F1CAA35440021E190 /* DrugAdviceModel.swift in Sources */,
+				74B536351CAA55780021E190 /* UIColor+Extension.swift in Sources */,
+				74B536321CAA35440021E190 /* DrugAdviceViewController.swift in Sources */,
+				74B536301CAA35440021E190 /* DrugAdviceTableViewCell.swift in Sources */,
+				74B536371CAA55920021E190 /* YXAPPConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
