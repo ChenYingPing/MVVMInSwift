@@ -44,6 +44,7 @@ class DrugAdviceViewController: UITableViewController
     }
 
     // MARK: - tableViewDataSource
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return durgAdvices!.count
     }
